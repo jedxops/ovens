@@ -107,7 +107,7 @@ bool read_from_file(BST * & tree)
 		return 1;
 	}
 
-	//TEXT FILE READ ERROR.
+	//TEXT FILE READ ERROR. In this case we return 0, which is failure here.
 	else
 	{
 		return 0;
